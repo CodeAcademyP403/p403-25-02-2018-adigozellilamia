@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/GettyImages.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+
+}
+.text{
+    width: 50%;
+    float: left;
+    padding: 0 10%;
+    box-sizing: border-box;
+    margin-top: 13%;
+    color: #858a85;
+    position: relative;
+}
+body::after{
+    content: "";
+    position: absolute;
+    left: 21%;
+    border: 1px solid #858a85;
+    height: 100px;
+}
+body::before{
+    content: "";
+    position: absolute;
+    top: 562px;
+    left: 21%;
+    border: 1px solid #858a85;
+    height: 100px;
+}
+
+.text .tittle{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* font-size: 18px; */
+}
+.text .about{
+    
+
+    text-transform: uppercase;
+    font-size: 48px;
+    letter-spacing: 2px;
+    line-height: 0;
+    padding-top: 3%;
+}
+.text .description{
+    font-size: 20px;
+    word-spacing: 1px;
+    text-transform: capitalize;
+    padding-top: 5%;
+
+}
+.text .stat{
+    text-transform: capitalize;
+    padding-top: 5%;
+}
+.text .stat span{
+    text-decoration: initial;
+}
+
+
+

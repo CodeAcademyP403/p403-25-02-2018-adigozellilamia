@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 560px;
+    font-family: sans-serif;
+}
+.body{
+    width: 970px;
+    height: 500px;
+    margin:  auto;
+    border: 5px solid #cdcdcd;
+    border-style: inset;
+    margin-top: 3%;
+}
+.left{
+    width: 40%;
+    display: inline-block;
+    float: left;
+    background-image: linear-gradient(to top, rgb(30, 29, 29), rgba(0,0,0, 0.4)),  url(../img/women_black_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+.left .text{
+    margin-top:90%;
+    padding-left: 15%;
+    color: #fcfcfd;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.left .text .tittle{
+    color: #727475;
+    line-height: 0;
+}
+.left .text .about{
+    position: relative;
+    padding-top: 1%;
+}
+.left .text .about::before{
+    position: absolute;
+    content: "";
+    border-top: 2px solid #727475;
+    width: 35%;
+}
+.right{
+    width: 60%;
+    display: inline-block;
+    float: left;
+    padding: 2% 5%;
+    box-sizing: border-box;
+    position: relative;
+
+}
+.right .rt-text{
+    text-align: center;
+    color: #070707;
+}
+.right::before{
+    position: absolute;
+    content: "X";
+    top: 9%;
+    right: 59px;
+    color: #070707;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.right .rt-text h2{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.right .rt-text p{
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    padding-top: 3%;
+}
+.right .rt-text .inpt{
+    display: block;
+    
+}
+.right .rt-text input{
+    display: block;
+    width: 93%;
+    padding: 15px;
+    border: 2px solid #826dc8;
+    margin-top: 10%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+.inpt button{
+    text-transform: capitalize;
+    background-color: #6739b6;
+    text-decoration: none;
+    padding: 5% 15%;
+    border: none;
+    color: #f8f0fd;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.inpt button .fa{
+    padding-top: 10px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
